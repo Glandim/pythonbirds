@@ -9,11 +9,11 @@ class Pessoa:
 
 if __name__ == '__main__':
   gabriel = Pessoa(nome='Gabriel')
-  landim = Pessoa(gabriel, nome='Landim')
-  print(Pessoa.cumprimentar(landim))
-  print(id(landim))
-  print(landim.cumprimentar())
-  print(landim.nome)
-  print(landim.idade)
-  for filho in landim.filhos:
+  francisco = Pessoa(gabriel, nome='Francisco')
+  print(Pessoa.cumprimentar(francisco))
+  print(id(francisco))
+  print(francisco.cumprimentar())
+  print(francisco.nome)
+  print(francisco.idade)
+  for filho in francisco.filhos:
     print(filho.nome)
